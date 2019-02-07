@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Counter from './Counter';
+import Counter from './container/Counter';
 
 class App extends Component {
   render() {
+    console.log("Inside App.js")
     return (
       <div className="App">
         <Counter />

@@ -14,6 +14,8 @@ class Counter extends React.Component{
     }
 
     render(){
+        console.log("Inside Counter.js");
+        console.log(this.props);
         return(
             <div>
                 <h2>Counter</h2>

@@ -1,6 +1,8 @@
-import initialState  from '../model/index';
+import initialState from '../models/index';
 
-function reducer(state = initialState, action) {
+function counter(state = initialState, action) {
+  console.log(initialState);
+  console.log(state);
     switch(action.type) {
       case 'INCREMENT':
         return {
@@ -15,4 +17,4 @@ function reducer(state = initialState, action) {
     }
 }
 
-export default reducer;
+export default counter;
