@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Concept Used
 * What I learned: 
 * How to connect redux with react
@@ -14,3 +15,14 @@
 * combine reducers
 * add presentational component
 * add container component
+=======
+Concept Used
+============
+How to connect redux with react
+How to create redux store
+How to initialize store
+How to create reducer
+How to dispact redux action
+How to use nested component
+How to connect store to component & vice versa
+>>>>>>> 665c6e7eed2d9d7ad836b815e737548fafc30696
